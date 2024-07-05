@@ -1,0 +1,29 @@
+VGG16 and VGG19:
+
+Pros: Simple and widely used, good for transfer learning.
+Cons: Computationally expensive and memory-intensive due to a large number of parameters.
+Suitability: Good for high-accuracy applications where computational resources are not a limitation.
+
+ResNet (e.g., ResNet50):
+
+Pros: Solves the vanishing gradient problem with skip connections, high accuracy.
+Cons: More complex than VGG, still relatively heavy computationally.
+Suitability: Good balance of performance and accuracy, suitable for slightly resource-constrained environments.
+
+Inception (e.g., InceptionV3):
+
+Pros: Efficient and deep, incorporates multi-scale processing.
+Cons: More complex architecture.
+Suitability: Suitable for applications requiring high accuracy with relatively efficient computation.
+
+MobileNet:
+
+Pros: Designed for mobile and embedded vision applications, very efficient.
+Cons: May have slightly lower accuracy compared to deeper models like ResNet or Inception.
+Suitability: Ideal for real-time applications on mobile devices or edge computing environments.
+
+EfficientNet:
+
+Pros: Balances accuracy and efficiency using a compound scaling method, state-of-the-art performance.
+Cons: Can be complex to train from scratch.
+Suitability: Excellent for applications needing a balance of high accuracy and efficiency.
